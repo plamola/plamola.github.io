@@ -9,5 +9,5 @@ I've been quite busy building this 'FeedR' application. Most of the work done so
 
 Finally I get to see if all the work I've done so far can be made into something usefull. 
 
-![Concept](/content/images/2014/Feb/feedR___Concept.png)
+![Concept](/content/images/feedR___Concept.png)
 Still needs a lot of work, but its fun to do, so who cares, right?
