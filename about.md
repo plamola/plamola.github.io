@@ -6,6 +6,6 @@ permalink: /about/
 
 Creating software is fun. That's why I do it.
 
-### Contact me
+#### Contact me
 
-[contact@dekkr dot nl](mailto:contact@dekkr dot nl)
+[contact@dekkr.nl](mailto:contact@dekkr.nl)

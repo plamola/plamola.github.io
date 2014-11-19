@@ -17,7 +17,7 @@ avatar: https://avatars0.githubusercontent.com/u/3274822?v=3&s=460
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: 
+  email: contact@dekkr.nl
   facebook: 
   flickr: 
   github: plamola
@@ -54,7 +54,7 @@ baseurl: ""
 pages_list:       
   About: '/about'
   Archive: '/archive'
-  Feed: '/feed.xml'
+#  Feed: '/feed.xml'
 
 #
 # !! You don't need to change any of the configuration flags below !!
