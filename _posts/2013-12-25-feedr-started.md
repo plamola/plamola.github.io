@@ -5,7 +5,7 @@ date: 2013-12-25 11:00:00 GMT
 ---
 I decide to start writing my own RSS reader. 
 
-Just because I can. 
+Just because I can. <br/>
 Or at least it is something I should be able to do.
 
 Ever since the announcement of the pending shutdown of Google Reader, I've been looking for an alternative. While hosted solutions like Newsblur & Feedly are sufficient for most users, I choose not to use them. Simply because it would introduce another dependency on the services of another company/individual. One day, the service will no longer be available.
