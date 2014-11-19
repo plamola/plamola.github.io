@@ -2,6 +2,7 @@
 layout: post
 title: FeedR development update
 published: true
+date : 2014-02-09 11:08:36 GMT
 ---
 
 I've been quite busy building this 'FeedR' application. Most of the work done so far is the stuff most people will never see, like fetching the actual contents of RSS feeds and implementing API's so mobile clients can connect to the application. While it is nowhere from being complete, the background stuff is on hold for the moment, so I can concentrate on building the frontend.
