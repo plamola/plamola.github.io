@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Restart of FeedR 
-published: no
+published: false
 ---
 ####FeedR - The frontend
 - Viewer
