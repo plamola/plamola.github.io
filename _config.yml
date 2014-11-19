@@ -44,14 +44,17 @@ url: http://dekkr.nl
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-defaults:
-  -
-  scope:
-    path: "" # an empty string here means all files in the project
-    type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "post"
+#defaults:
+#  scope:
+#    path: "" # an empty string here means all files in the project
+#    type: "posts" # previously `post` in Jekyll 2.2.
+#  values:
+#      layout: "post"
 
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/feed.xml'
 
 #
 # !! You don't need to change any of the configuration flags below !!
