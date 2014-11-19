@@ -8,4 +8,4 @@ Creating software is fun. That's why I do it.
 
 ### Contact me
 
-[contact@dekkr.n<!-- -->l](mailto:contact@dekkr.n<!-- -->l)
+[contact@dekkr dot nl](mailto:contact@dekkr dot nl)
