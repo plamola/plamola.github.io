@@ -1,6 +1,7 @@
 ---
 layout: post
 title: FeedR started
+date: 2013-12-25 11:00:00 GMT
 ---
 I decide to start writing my own RSS reader. 
 
