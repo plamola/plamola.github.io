@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:600,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-
-    <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{{ site.description }}">
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
 
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title> {{ page.title }} </title>
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <header>
+      <div class="inner">
+        <a href="{{ site.baseurl }}/"><h1>{{ site.name }}</h1></a>
+        <h2>{{ site.description }}</h2>
+        <!--<a href="https://github.com/pietromenna/jekyll-architect-theme" class="button"><small>View project on</small> GitHub</a>-->
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
           
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-		{% for page in site.pages_list %}  		
-		  <a href="{{ page[1] }}">{{ page[0] }}</a>
-		{% endfor %}
-          </nav>
-        </header>
+          {{ content }}
+
+        </section>
+
+        <aside id="sidebar">
+             <div class="post-author">
+                 <a href="{{ site.baseurl }}/" class="post-author-avatar">
+                     <img src="{{ site.avatar }}" alt="Matthijs Dekker">
+                 </a>
+                 <div class="post-author-info">
+                     <a href="http://dekkr.nl" class="post-author-name">{{ site.author }}</a>
+                       <p class="post-author-bio">{{ site.authorshortbio }}</p>
+                 </div>
+             </div>
+
+            <div class="static-pages">
+           {% for page in site.pages_list %}
+                <h3><a href="{{ page[1] }}">{{ page[0] }}</a></h3>
+           {% endfor %}
+            </div>
+
+            {% include svg-icons.html %}
+        </aside>
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
   </body>
 </html>

@@ -10,6 +10,10 @@ description: About (software) projects I'm doing in my spare time.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/3274822?v=3&s=460
+
+author: Matthijs Dekker
+authorshortbio: Creating software is fun. <br/>That's why I do it.<br/>Are you having fun?
+
 #
 # Flags below are optional
 #
@@ -17,7 +21,7 @@ avatar: https://avatars0.githubusercontent.com/u/3274822?v=3&s=460
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: contact@dekkr.nl
+  email: # email?
   facebook: 
   flickr: 
   github: plamola
